@@ -1,0 +1,129 @@
+h1{
+  font-family: "helvetica";
+  display: inline-block;
+  text-align: "right";
+}
+
+.anchor-helper{
+  position: relative;
+  top: -90px;
+}
+
+.colorguide{
+  background-color: #f8fad7;
+  overflow: hidden;
+}
+
+.navigation{
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background-color: AntiqueWhite;
+  opacity: 97%;
+}
+
+li{
+  font-family: Tahoma;
+  background-color: #9DD1F1;
+  border-radius: 3px;
+  color: #004E89;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 5px;
+  padding: 6px;
+  text-align: justify;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: auto;
+}
+
+li:hover{
+  background-color: #004E89;
+  color: #9DD1F1;
+}
+
+.image{
+  width: 160px;
+  height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3%;
+    top: 0;
+    float: left;
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+
+}
+
+.info{
+  position: relative;
+  margin-top: 90px;
+}
+
+.img-row {
+  display: flex;
+}
+
+#abt-me{
+  width: 800px;
+}
+.abt-me-txt{
+  width: 100%;
+  text-align: center ;
+  font-family: georgia;
+}
+
+.img-column {
+  flex: 33.33%;
+  padding: 5px;
+  text-align: center;
+}
+
+#headshot{
+  height: 400px;
+  width: 270px;
+  border-radius: 1%
+}
+
+#about-me-text{
+  right:0;
+}
+
+.txt-container{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
+  flex-basis: auto;
+}
+
+.info h1{
+  text-align: justify;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+
+
+.float-child {
+    width: 40%;
+    float: left;
+    margin-top: 1px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+}
