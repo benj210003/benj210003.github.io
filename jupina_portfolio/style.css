@@ -27,6 +27,16 @@ h1{
   opacity: 97%;
 }
 
+.footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: AntiqueWhite;
+  text-align: center;
+  height: 40px;
+}
+
 li{
   font-family: Tahoma;
   background-color: #9DD1F1;
@@ -72,13 +82,11 @@ li:hover{
   display: flex;
 }
 
-#abt-me{
-  width: 800px;
-}
 .abt-me-txt{
   width: 100%;
   text-align: center ;
   font-family: georgia;
+  max-height: 300px;
 }
 
 .img-column {
@@ -93,16 +101,16 @@ li:hover{
   border-radius: 1%
 }
 
-#about-me-text{
-  right:0;
-}
-
 .txt-container{
   display: flex;
   flex-direction: row;
   flex-grow: 1;
   justify-content: space-between;
   flex-basis: auto;
+}
+
+.work-img{
+  width: 200px;
 }
 
 .info h1{
@@ -116,14 +124,29 @@ li:hover{
     line-height: 0
 }
 
-
+.work-img{
+  height: 350px;
+  width: 350px;
+  border-radius: 1%
+}
 
 .float-child {
-    width: 40%;
+    width: 33%;
     float: left;
     margin-top: 1px;
     height: auto;
     margin: 0 auto;
     position: relative;
     top: 0px;
+}
+
+.footer-img{
+  height:40px;
+  width: 40px;
+
+}
+
+.p-footer{
+  display: flex;
+  justify-content: space-around;
 }
